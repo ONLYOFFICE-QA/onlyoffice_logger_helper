@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['ONLYOFFICE', 'Pavel Lobashov', 'Roman Zagudaev']
   spec.email         = ['shockwavenn@gmail.com', 'rzagudaev@gmail.com']
 
-  spec.summary       = 'Simple terminal logging gem for ONLYOFFICE projects'
-  spec.description   = 'Simple terminal logging gem for ONLYOFFICE projects. Used in QA'
+  spec.summary       = 'Simple logging gem for ONLYOFFICE projects'
+  spec.description   = 'Simple logging gem for ONLYOFFICE projects. Used in QA'
   spec.homepage      = 'https://github.com/onlyoffice-testing-robot/onlyoffice_logger_helper'
 
   spec.files = `git ls-files lib LICENSE.txt README.md`.split($RS)

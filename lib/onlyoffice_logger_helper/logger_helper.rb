@@ -4,7 +4,8 @@ module OnlyofficeLoggerHelper
   class LoggerHelper
     def self.print_to_log(entry, color_code = nil)
       caller_name = caller[0].to_s[/\w+.rb/].chomp('.rb')
-      message = "#{Time.now.strftime('%T/%d.%m.%y')}    [#{caller_name}] #{entry}"
+      time_stamp = Time.now.strftime('%T/%d.%m.%y')
+      message = "#{time_stamp}    [#{caller_name}] #{entry}"
       color_code ? puts(colorize(message, color_code)) : puts(message)
     end
 
