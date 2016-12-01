@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in onlyoffice_digitalocean_wrapper.gemspec
+# Specify your gem's dependencies in onlyoffice_logger_helper.gemspec
 gemspec
 
 group :test do
