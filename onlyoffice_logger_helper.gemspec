@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = 'onlyoffice_logger_helper'
   spec.version       = OnlyofficeLoggerHelper::VERSION
   spec.authors       = ['ONLYOFFICE', 'Pavel Lobashov', 'Roman Zagudaev']
-  spec.email         = ['shockwavenn@gmail.com', 'rzagudaev@gmail.com']
+  spec.email         = %w(shockwavenn@gmail.com rzagudaev@gmail.com)
 
   spec.summary       = 'Simple logging gem for ONLYOFFICE projects'
   spec.description   = 'Simple logging gem for ONLYOFFICE projects. Used in QA'
