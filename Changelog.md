@@ -1,6 +1,6 @@
 # Change log
 
-## master (unrelased)
+## 1.0.1
 * Fix RuboCop 0.49 warnings (minor speedup by `Performance/Caller` cop)
 
 ## 1.0.0
