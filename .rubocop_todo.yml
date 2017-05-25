@@ -7,12 +7,6 @@
 # versions of RuboCop, may require this file to be generated again.
 
 # Offense count: 1
-# Cop supports --auto-correct.
-Layout/EmptyLineAfterMagicComment:
-  Exclude:
-    - 'onlyoffice_logger_helper.gemspec'
-
-# Offense count: 1
 Performance/Caller:
   Exclude:
     - 'lib/onlyoffice_logger_helper/logger_helper.rb'
