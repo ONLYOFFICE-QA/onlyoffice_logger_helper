@@ -16,10 +16,3 @@ Layout/EmptyLineAfterMagicComment:
 Performance/Caller:
   Exclude:
     - 'lib/onlyoffice_logger_helper/logger_helper.rb'
-
-# Offense count: 1
-# Cop supports --auto-correct.
-# Configuration parameters: PreferredDelimiters.
-Style/PercentLiteralDelimiters:
-  Exclude:
-    - 'onlyoffice_logger_helper.gemspec'
