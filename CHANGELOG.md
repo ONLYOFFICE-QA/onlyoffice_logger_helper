@@ -6,6 +6,10 @@
 
 * Minor cleanups of `gemspec` file
 
+### Changes
+
+* Drop support of rubies older, than 2.3
+
 ## 1.0.1
 
 * Fix RuboCop 0.49 warnings (minor speedup by `Performance/Caller` cop)
