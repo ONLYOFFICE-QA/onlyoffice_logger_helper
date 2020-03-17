@@ -1,5 +1,11 @@
 # Change log
 
+## master (unreleased) 
+
+### New Features
+
+* Minor cleanups of `gemspec` file
+
 ## 1.0.1
 * Fix RuboCop 0.49 warnings (minor speedup by `Performance/Caller` cop)
 
