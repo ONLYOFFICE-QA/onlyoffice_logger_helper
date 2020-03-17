@@ -5,6 +5,7 @@
 ### New Features
 
 * Minor cleanups of `gemspec` file
+* `rake` tasks for releasing gem
 
 ### Changes
 

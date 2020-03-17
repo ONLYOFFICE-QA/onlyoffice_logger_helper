@@ -20,4 +20,5 @@ Gem::Specification.new do |s|
   s.email = %w[shockwavenn@gmail.com rzagudaev@gmail.com]
   s.files = Dir['lib/**/*']
   s.license = 'AGPL-3.0'
+  s.add_development_dependency('rake', '~> 13.0')
 end
