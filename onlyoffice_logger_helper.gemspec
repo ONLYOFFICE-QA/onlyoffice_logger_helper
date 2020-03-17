@@ -1,21 +1,23 @@
 # frozen_string_literal: true
 
-lib = File.expand_path('lib', __dir__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'onlyoffice_logger_helper/version'
+require_relative 'lib/onlyoffice_logger_helper/version'
 
-Gem::Specification.new do |spec|
-  spec.name          = 'onlyoffice_logger_helper'
-  spec.version       = OnlyofficeLoggerHelper::VERSION
-  spec.authors       = ['ONLYOFFICE', 'Pavel Lobashov', 'Roman Zagudaev']
-  spec.email         = %w[shockwavenn@gmail.com rzagudaev@gmail.com]
-
-  spec.summary       = 'Simple logging gem for ONLYOFFICE projects'
-  spec.description   = 'Simple logging gem for ONLYOFFICE projects. Used in QA'
-  spec.homepage      = 'https://github.com/onlyoffice-testing-robot/onlyoffice_logger_helper'
-
-  spec.files = `git ls-files lib LICENSE.txt README.md`.split($RS)
-  spec.require_paths = ['lib']
-
-  spec.license = 'AGPL-3.0'
+Gem::Specification.new do |s|
+  s.name = 'onlyoffice_logger_helper'
+  s.version = OnlyofficeLoggerHelper::VERSION
+  s.platform = Gem::Platform::RUBY
+  s.authors = ['ONLYOFFICE', 'Pavel Lobashov', 'Roman Zagudaev']
+  s.summary = 'Simple logging gem for ONLYOFFICE projects'
+  s.description = 'Simple logging gem for ONLYOFFICE projects. Used in QA'
+  s.homepage = 'https://github.com/onlyoffice-testing-robot/onlyoffice_logger_helper'
+  s.metadata = {
+    'bug_tracker_uri' => "#{s.homepage}/issues",
+    'changelog_uri' => "#{s.homepage}/blob/master/CHANGELOG.md",
+    'documentation_uri' => "https://www.rubydoc.info/gems/#{s.name}",
+    'homepage_uri' => s.homepage,
+    'source_code_uri' => s.homepage
+  }
+  s.email = %w[shockwavenn@gmail.com rzagudaev@gmail.com]
+  s.files = Dir['lib/**/*']
+  s.license = 'AGPL-3.0'
 end
