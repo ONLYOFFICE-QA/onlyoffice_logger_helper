@@ -2,6 +2,8 @@
 
 ## master (unreleased)
 
+## 1.0.2 (2020-03-17)
+
 ### New Features
 
 * Minor cleanups of `gemspec` file
