@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Module for output stuff in console
 module OnlyofficeLoggerHelper
   def self.log(entry, color_code = nil)
