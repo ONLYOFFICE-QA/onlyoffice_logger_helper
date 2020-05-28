@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        ruby: [2.3, 2.4, 2.5, 2.6, 2.7, head]
+        ruby: [2.4, 2.5, 2.6, 2.7, head]
     steps:
     - uses: actions/checkout@v2
     - name: Set up Ruby ${{ matrix.ruby }}
@@ -15,7 +15,6 @@ jobs:
     - name: Build and test with Rake
       run: |
         gem install bundler
-        bundle config set without 'development'
         bundle install --jobs 4 --retry 3
         bundle exec rake
     - name: Send test coverage report to codecov.io
@@ -27,3 +26,5 @@ jobs:
       run: |
         npm install -g markdownlint-cli
         markdownlint *.md
+    - name: Check source files using `rubocop`
+      run: rubocop
