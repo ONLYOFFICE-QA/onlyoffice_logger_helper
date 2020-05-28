@@ -6,6 +6,9 @@
 
 * Check via `markdownlint` in CI
 * Cleanup README file, remove auto-generated stuff without useful info
+* Add `rubocop-performance`, `rubocop-rake` dependency
+* All rubocop dependencies now fixed version (easier to update)
+* Add rubocop task to CI
 
 ### Changes
 
