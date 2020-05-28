@@ -2,6 +2,11 @@
 
 ## master (unreleased)
 
+### New Features
+
+* Check via `markdownlint` in CI
+* Cleanup README file, remove auto-generated stuff without useful info
+
 ### Changes
 
 * Use github actions instead of travis ci

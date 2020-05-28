@@ -22,3 +22,8 @@ jobs:
       uses: codecov/codecov-action@v1
       with:
         file: ./coverage/.resultset.json
+    - uses: actions/setup-node@v1
+    - name: Check markdown files using `markdownlint`
+      run: |
+        npm install -g markdownlint-cli
+        markdownlint *.md
