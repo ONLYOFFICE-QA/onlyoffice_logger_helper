@@ -25,7 +25,7 @@ jobs:
     - name: Check markdown using markdownlin
       uses: actions/setup-node@v1
         with:
-          node-version: 12.x
-      run: |
+          node-version: 12
+    - run: |
         npm install -g markdownlint-cli
         markdownlint *.md
