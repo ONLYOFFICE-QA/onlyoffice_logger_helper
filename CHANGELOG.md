@@ -2,6 +2,10 @@
 
 ## master (unreleased)
 
+### New Features
+
+* Check via `markdownlint` in CI
+
 ### Changes
 
 * Use github actions instead of travis ci
