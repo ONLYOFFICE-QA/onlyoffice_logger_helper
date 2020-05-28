@@ -2,6 +2,10 @@
 
 ## master (unreleased)
 
+### Changes
+
+* Use github actions instead of travis ci
+
 ## 1.0.2 (2020-03-17)
 
 ### New Features
