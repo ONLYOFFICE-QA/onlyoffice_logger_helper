@@ -10,6 +10,10 @@
 * All rubocop dependencies now fixed version (easier to update)
 * Add rubocop task to CI
 
+### Fixes
+
+* Fix code coverage report on non-CI environments
+
 ### Changes
 
 * Use github actions instead of travis ci
