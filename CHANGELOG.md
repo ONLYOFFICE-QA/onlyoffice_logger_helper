@@ -9,6 +9,9 @@
 * Add `rubocop-performance`, `rubocop-rake` dependency
 * All rubocop dependencies now fixed version (easier to update)
 * Add rubocop task to CI
+* Add CI task to check documentation coverage
+* Add missed documentation
+* Add `yard` as development dependency
 
 ### Changes
 
