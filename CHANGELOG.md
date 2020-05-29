@@ -2,6 +2,8 @@
 
 ## master (unreleased)
 
+## 1.0.3 (2020-05-29)
+
 ### New Features
 
 * Check via `markdownlint` in CI
