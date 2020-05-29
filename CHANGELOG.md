@@ -14,6 +14,7 @@
 
 * Use github actions instead of travis ci
 * Move `rake` from `development` dependency to base dependency
+* Dump `codecov` support in favor of clean `simplecov` result check
 
 ## 1.0.2 (2020-03-17)
 
