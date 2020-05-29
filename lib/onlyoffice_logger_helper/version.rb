@@ -4,5 +4,5 @@ module OnlyofficeLoggerHelper
   # @return [String] name of gem
   NAME = 'onlyoffice_logger_helper'
   # @return [String] version of gem
-  VERSION = '1.0.2'
+  VERSION = '1.0.3'
 end
