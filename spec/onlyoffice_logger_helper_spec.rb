@@ -12,9 +12,9 @@ describe OnlyofficeLoggerHelper do
     expect { described_class.log('Hello') }
       .to output(/\[#{File.basename(__FILE__, '.*')}\]/).to_stdout
   end
-  #
-  # it 'Output have color if it specified' do
-  #   expect { described_class.log('Hello', 31) }
-  #     .to output(/31/).to_stdout
-  # end
+
+  it 'Output have color if it specified' do
+    expect { described_class.log('Hello', 31) }
+      .to output(/31/).to_stdout
+  end
 end
