@@ -11,6 +11,7 @@
 * Add rubocop task to CI
 * Add CI task to check documentation coverage
 * Add missed documentation
+* Add `yard` as development dependency
 
 ### Changes
 
