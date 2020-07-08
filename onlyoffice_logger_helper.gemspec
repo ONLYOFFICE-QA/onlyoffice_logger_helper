@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.email = %w[shockwavenn@gmail.com rzagudaev@gmail.com]
   s.files = Dir['lib/**/*']
   s.license = 'AGPL-3.0'
-  s.add_development_dependency('rubocop', '0.87.0')
+  s.add_development_dependency('rubocop', '0.87.1')
   s.add_development_dependency('rubocop-performance', '1.7.0')
   s.add_development_dependency('rubocop-rake', '0.5.1')
   s.add_development_dependency('rubocop-rspec', '1.41.0')
