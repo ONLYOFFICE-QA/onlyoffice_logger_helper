@@ -6,6 +6,7 @@ Gem::Specification.new do |s|
   s.name = OnlyofficeLoggerHelper::NAME
   s.version = OnlyofficeLoggerHelper::VERSION
   s.platform = Gem::Platform::RUBY
+  s.required_ruby_version = '>= 2.4'
   s.authors = ['ONLYOFFICE', 'Pavel Lobashov', 'Roman Zagudaev']
   s.summary = 'Simple logging gem for ONLYOFFICE projects'
   s.description = 'Simple logging gem for ONLYOFFICE projects. Used in QA'
@@ -21,7 +22,7 @@ Gem::Specification.new do |s|
   s.email = %w[shockwavenn@gmail.com rzagudaev@gmail.com]
   s.files = Dir['lib/**/*']
   s.license = 'AGPL-3.0'
-  s.add_development_dependency('rubocop', '0.88.0')
+  s.add_development_dependency('rubocop', '0.89.0')
   s.add_development_dependency('rubocop-performance', '1.7.1')
   s.add_development_dependency('rubocop-rake', '0.5.1')
   s.add_development_dependency('rubocop-rspec', '1.42.0')
