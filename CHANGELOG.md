@@ -9,6 +9,7 @@
 
 ### Changes
 
+* Moved repo to `ONLYOFFICE-QA` organization
 * Require ruby v2.5 or newer
 * Fix new warnings from `rubocop` v0.89.0 update
 * Store all dependencies in `gemspec`

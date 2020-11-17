@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.authors = ['ONLYOFFICE', 'Pavel Lobashov', 'Roman Zagudaev']
   s.summary = 'Simple logging gem for ONLYOFFICE projects'
   s.description = 'Simple logging gem for ONLYOFFICE projects. Used in QA'
-  s.homepage = 'https://github.com/onlyoffice-testing-robot/'\
+  s.homepage = 'https://github.com/ONLYOFFICE-QA/'\
                "#{OnlyofficeLoggerHelper::NAME}"
   s.metadata = {
     'bug_tracker_uri' => "#{s.homepage}/issues",
