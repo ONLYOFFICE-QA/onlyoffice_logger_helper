@@ -4,7 +4,7 @@
 
 ### Changes
 
-* Require ruby v2.4 or newer
+* Require ruby v2.5 or newer
 * Fix new warnings from `rubocop` v0.89.0 update
 * Store all dependencies in `gemspec`
 * Add `Gemfile.lock` to repo to store all dependencies version
