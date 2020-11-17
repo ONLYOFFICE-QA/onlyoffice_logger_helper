@@ -14,6 +14,7 @@
 * Fix new warnings from `rubocop` v0.89.0 update
 * Store all dependencies in `gemspec`
 * Add `Gemfile.lock` to repo to store all dependencies version
+* Use `rake` `sh` command for releasing gem
 
 ## 1.0.3 (2020-05-29)
 
