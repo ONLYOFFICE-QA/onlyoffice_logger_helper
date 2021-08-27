@@ -18,4 +18,16 @@ module OnlyofficeLoggerHelper
   def self.colorize(text, color_code)
     "\e[#{color_code}m#{text}\e[0m"
   end
+
+  # Colorize log in green
+  # @param [String] line to output
+  def self.green_log(entry)
+    log(entry, 32)
+  end
+
+  # Colorize log in red
+  # @param [String] line to output
+  def  self.red_log(entry)
+    log(entry, 31)
+  end
 end

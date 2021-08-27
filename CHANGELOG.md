@@ -6,6 +6,7 @@
 
 * Add `ruby-3.0` to CI
 * Add `codecov` branch coverage check in CI
+* Add methods which colorize log on red and green
 
 ## 1.1.0 (2020-11-17)
 
