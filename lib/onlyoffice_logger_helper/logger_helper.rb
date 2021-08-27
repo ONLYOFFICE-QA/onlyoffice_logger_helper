@@ -27,7 +27,7 @@ module OnlyofficeLoggerHelper
 
   # Colorize log in red
   # @param [String] line to output
-  def  self.red_log(entry)
+  def self.red_log(entry)
     log(entry, 31)
   end
 end
