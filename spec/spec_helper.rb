@@ -7,3 +7,4 @@ SimpleCov.start do
 end
 
 require 'onlyoffice_logger_helper'
+require_relative '../config/static_data'

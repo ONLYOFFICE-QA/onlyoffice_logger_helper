@@ -22,12 +22,12 @@ module OnlyofficeLoggerHelper
   # Colorize log in green
   # @param [String] line to output
   def self.green_log(entry)
-    log(entry, 32)
+    log(entry, StaticData::GREEN_COLOR_CODE)
   end
 
   # Colorize log in red
   # @param [String] line to output
   def self.red_log(entry)
-    log(entry, 31)
+    log(entry, StaticData::RED_COLOR_CODE)
   end
 end
