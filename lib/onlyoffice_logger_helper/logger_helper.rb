@@ -2,6 +2,9 @@
 
 # Module for output stuff in console
 module OnlyofficeLoggerHelper
+  GREEN_COLOR_CODE = 32
+  RED_COLOR_CODE = 31
+
   # Output log entry to terminal
   # @param entry [String] line to output
   # @param color_code [Integer] code of color
@@ -22,12 +25,12 @@ module OnlyofficeLoggerHelper
   # Colorize log in green
   # @param [String] line to output
   def self.green_log(entry)
-    log(entry, StaticData::GREEN_COLOR_CODE)
+    log(entry, GREEN_COLOR_CODE)
   end
 
   # Colorize log in red
   # @param [String] line to output
   def self.red_log(entry)
-    log(entry, StaticData::RED_COLOR_CODE)
+    log(entry, RED_COLOR_CODE)
   end
 end
