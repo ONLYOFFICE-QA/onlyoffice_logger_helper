@@ -26,12 +26,14 @@ module OnlyofficeLoggerHelper
 
   # Colorize log in green
   # @param entry [String] line to output
+  # @return [void]
   def self.green_log(entry)
     log(entry, GREEN_COLOR_CODE)
   end
 
   # Colorize log in red
   # @param entry [String] line to output
+  # @return [void]
   def self.red_log(entry)
     log(entry, RED_COLOR_CODE)
   end
