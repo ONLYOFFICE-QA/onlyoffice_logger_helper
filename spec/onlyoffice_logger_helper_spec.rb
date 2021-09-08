@@ -27,4 +27,14 @@ describe OnlyofficeLoggerHelper do
     expect { described_class.red_log('Hello') }
       .to output(/#{described_class::RED_COLOR_CODE}/o).to_stdout
   end
+
+  it 'Output simple log message with green color' do
+    expect { described_class.green_log('Hello') }
+      .to output(/Hello/).to_stdout
+  end
+
+  it 'Output simple log message with red color' do
+    expect { described_class.red_log('Hello') }
+      .to output(/Hello/).to_stdout
+  end
 end
