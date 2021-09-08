@@ -19,12 +19,12 @@ describe OnlyofficeLoggerHelper do
   end
 
   it 'Output have code green color if it specified' do
-    expect { described_class.green_log('test') }
-      .to output(/32m/).to_stdout
+    expect { described_class.green_log('Hello') }
+      .to output(/32/).to_stdout
   end
 
   it 'Output have code red color if it specified' do
-    expect { described_class.red_log('test') }
-      .to output(/31m/).to_stdout
+    expect { described_class.red_log('Hello') }
+      .to output(/31/).to_stdout
   end
 end
