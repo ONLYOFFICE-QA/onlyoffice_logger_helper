@@ -2,9 +2,9 @@
 
 # Module for output stuff in console
 module OnlyofficeLoggerHelper
-  # Green color code for ruby term
+  # Green color code
   GREEN_COLOR_CODE = 32
-  # Red color code for ruby term
+  # Red color code
   RED_COLOR_CODE = 31
 
   # Output log entry to terminal
