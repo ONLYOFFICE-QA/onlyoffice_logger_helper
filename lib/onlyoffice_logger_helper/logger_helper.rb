@@ -2,7 +2,9 @@
 
 # Module for output stuff in console
 module OnlyofficeLoggerHelper
+  # Green color code for ruby term
   GREEN_COLOR_CODE = 32
+  # Red color code for ruby term
   RED_COLOR_CODE = 31
 
   # Output log entry to terminal
@@ -23,13 +25,13 @@ module OnlyofficeLoggerHelper
   end
 
   # Colorize log in green
-  # @param [String] line to output
+  # @param entry [String] line to output
   def self.green_log(entry)
     log(entry, GREEN_COLOR_CODE)
   end
 
   # Colorize log in red
-  # @param [String] line to output
+  # @param entry [String] line to output
   def self.red_log(entry)
     log(entry, RED_COLOR_CODE)
   end
