@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# Module for output stuff in console
+# Madule for output stuff in console
 module OnlyofficeLoggerHelper
   # Green color code
   GREEN_COLOR_CODE = 32
