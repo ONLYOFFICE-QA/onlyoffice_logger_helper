@@ -2,6 +2,10 @@
 
 ## master (unreleased)
 
+### Changes
+
+* Require `mfa` for releasing gem
+
 ## 1.2.0 (2021-09-08)
 
 ### New Features
