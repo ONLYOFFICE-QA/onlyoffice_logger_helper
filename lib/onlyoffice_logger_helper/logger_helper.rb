@@ -1,8 +1,9 @@
-# typed: false
+# typed: strict
 # frozen_string_literal: true
 
 # Module for output stuff in console
 module OnlyofficeLoggerHelper
+  extend T::Sig
   # Green color code
   GREEN_COLOR_CODE = 32
   # Red color code
@@ -11,8 +12,9 @@ module OnlyofficeLoggerHelper
   # Output log entry to terminal
   # @param entry [String] line to output
   # @param color_code [Integer] code of color
+  sig { params(entry: String, color_code: T.nilable(Integer)).returns(NilClass) }
   def self.log(entry, color_code = nil)
-    caller_name = caller(1..1).first.to_s[/\w+.rb/].chomp('.rb')
+    caller_name = T.must(T.must(caller(1..1)).first.to_s[/\w+.rb/]).chomp('.rb')
     time_stamp = Time.now.strftime('%T/%d.%m.%y')
     message = "#{time_stamp}    [#{caller_name}] #{entry}"
     color_code ? puts(colorize(message, color_code)) : puts(message)
@@ -21,6 +23,7 @@ module OnlyofficeLoggerHelper
   # Add color code to text
   # @param text [String] text to add color
   # @param color_code [Integer] code of color
+  sig { params(text: String, color_code: Integer).returns(String) }
   def self.colorize(text, color_code)
     "\e[#{color_code}m#{text}\e[0m"
   end
@@ -28,6 +31,7 @@ module OnlyofficeLoggerHelper
   # Colorize log in green
   # @param entry [String] line to output
   # @return [void]
+  sig { params(entry: String).returns(NilClass) }
   def self.green_log(entry)
     log(entry, GREEN_COLOR_CODE)
   end
@@ -35,6 +39,7 @@ module OnlyofficeLoggerHelper
   # Colorize log in red
   # @param entry [String] line to output
   # @return [void]
+  sig { params(entry: String).returns(NilClass) }
   def self.red_log(entry)
     log(entry, RED_COLOR_CODE)
   end
