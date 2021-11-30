@@ -1,3 +1,4 @@
+# typed: false
 # frozen_string_literal: true
 
 # Module for output stuff in console

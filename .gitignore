@@ -7,3 +7,4 @@
 /spec/reports/
 /tmp/
 .idea
+sorbet/rbi/hidden-definitions/errors.txt

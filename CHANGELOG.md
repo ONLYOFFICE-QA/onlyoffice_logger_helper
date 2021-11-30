@@ -2,6 +2,10 @@
 
 ## master (unreleased)
 
+### New Features
+
+* Add `sorbet` support
+
 ### Changes
 
 * Require `mfa` for releasing gem
