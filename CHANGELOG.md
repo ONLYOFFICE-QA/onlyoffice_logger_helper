@@ -2,9 +2,14 @@
 
 ## master (unreleased)
 
+### New Features
+
+* Add Ruby 3.1 to CI
+
 ### Changes
 
 * Require `mfa` for releasing gem
+* Remove EOLed ruby 2.5 from CI
 
 ## 1.2.0 (2021-09-08)
 
