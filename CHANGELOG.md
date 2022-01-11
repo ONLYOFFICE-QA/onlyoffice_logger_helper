@@ -10,6 +10,7 @@
 
 * Require `mfa` for releasing gem
 * Remove EOLed ruby 2.5 from CI
+* Allow CI failures on `ruby-head`
 
 ## 1.2.0 (2021-09-08)
 
