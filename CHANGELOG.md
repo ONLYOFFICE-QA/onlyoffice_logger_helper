@@ -12,6 +12,7 @@
 * Require `mfa` for releasing gem
 * Remove EOLed ruby 2.5 from CI
 * Allow CI failures on `ruby-head`
+* Check `dependabot` at 8:00 Moscow time daily
 
 ### Fixes
 
