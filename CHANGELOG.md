@@ -12,6 +12,10 @@
 * Remove EOLed ruby 2.5 from CI
 * Allow CI failures on `ruby-head`
 
+### Fixes
+
+* Fix `markdownlint` failure because of old `nodejs` in CI
+
 ## 1.2.0 (2021-09-08)
 
 ### New Features
