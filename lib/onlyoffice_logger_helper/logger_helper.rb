@@ -37,4 +37,14 @@ module OnlyofficeLoggerHelper
   def self.red_log(entry)
     log(entry, RED_COLOR_CODE)
   end
+
+  # Sleep for some time and output log
+  # @param [String] reason message to output
+  # @param [Integer] seconds time to sleep
+  # @return [void]
+  def self.sleep_and_log(reason, seconds)
+    log("Start sleeping for #{seconds} seconds because of `#{reason}`")
+    sleep(seconds)
+    log("Stopped sleeping for #{seconds} seconds because of `#{reason}`")
+  end
 end

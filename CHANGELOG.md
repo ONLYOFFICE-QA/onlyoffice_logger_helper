@@ -6,6 +6,7 @@
 
 * Add Ruby 3.1 to CI
 * Add `yamllint` check in CI
+* Add `OnlyofficeLoggerHelper.sleep_and_log` method
 
 ### Changes
 
