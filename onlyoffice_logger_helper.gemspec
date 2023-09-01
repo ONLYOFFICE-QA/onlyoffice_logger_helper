@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.name = OnlyofficeLoggerHelper::NAME
   s.version = OnlyofficeLoggerHelper::VERSION
   s.platform = Gem::Platform::RUBY
-  s.required_ruby_version = '>= 2.7'
+  s.required_ruby_version = '>= 3.0'
   s.authors = ['ONLYOFFICE', 'Pavel Lobashov', 'Roman Zagudaev']
   s.summary = 'Simple logging gem for ONLYOFFICE projects'
   s.description = 'Simple logging gem for ONLYOFFICE projects. Used in QA'
