@@ -2,6 +2,10 @@
 
 ## master (unreleased)
 
+## New Features
+
+* Add dependabot check for `GitHub Actions`
+
 ## Changes
 
 * Drop `ruby-2.6`, `ruby-2.7` support since it's EOL'ed
