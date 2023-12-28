@@ -5,7 +5,7 @@
 ## Changes
 
 * Drop `ruby-2.6`, `ruby-2.7` support since it's EOL'ed
-* Add `ruby-3.2` to CI
+* Add `ruby-3.2`, `ruby-3.3` to CI
 
 ## 1.3.0 (2022-04-08)
 
