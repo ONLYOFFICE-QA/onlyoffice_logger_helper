@@ -5,11 +5,13 @@
 ## New Features
 
 * Add dependabot check for `GitHub Actions`
+* Add `ruby-3.4` to CI
 
 ## Changes
 
 * Drop `ruby-2.6`, `ruby-2.7` support since it's EOL'ed
 * Add `ruby-3.2`, `ruby-3.3` to CI
+* Remove `ruby-3.0` from CI, since it's EOLed
 
 ## 1.3.0 (2022-04-08)
 
