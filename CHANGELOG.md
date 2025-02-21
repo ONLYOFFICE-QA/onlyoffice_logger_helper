@@ -13,6 +13,10 @@
 * Add `ruby-3.2`, `ruby-3.3` to CI
 * Remove `ruby-3.0` from CI, since it's EOLed
 
+## Fixes
+
+* Run `rubocop` in CI through `bundle exec`
+
 ## 1.3.0 (2022-04-08)
 
 ### New Features
